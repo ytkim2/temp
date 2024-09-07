@@ -16,13 +16,6 @@ body {
     font-weight: bold;
 }
 
-.search-bar {
-    flex-grow: 1;
-    margin: 0 15px;
-    padding: 5px;
-    border: 1px solid #ccc;
-}
-
 .icons .icon {
     margin-left: 15px;
     cursor: pointer;
