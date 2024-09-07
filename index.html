@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>굿이츠</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- 탑바 -->
+        <header>
+            <div class="topbar">
+                <div class="logo">굿이츠</div>
+                <input type="text" class="search-bar" placeholder="검색..." />
+                <div class="icons">
+                    <span class="icon">로그인</span>
+                    <span class="icon">회원가입</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- 메인 배너 -->
+        <main>
+            <div class="main-banner">
+                <h1>농산물 가격을 확인하세요</h1>
+                <button onclick="window.location.href='find.html'">가격 확인하기</button>
+            </div>
+
+            <!-- 탭 메뉴 -->
+            <nav class="tab-menu">
+                <button onclick="window.location.href='find.html'">농산물 찾기</button>
+                <button onclick="window.location.href='market.html'">직거래 마켓</button>
+                <button onclick="window.location.href='recipes.html'">레시피 공유</button>
+                <button onclick="window.location.href='community.html'">리뷰</button>
+            </nav>
+
+            <!-- 품목 리스트 -->
+            <div class="items-grid">
+                <div class="item">
+                    <h3>품목 1</h3>
+                    <p>가격</p>
+                </div>
+                <div class="item">
+                    <h3>품목 2</h3>
+                    <p>가격</p>
+                </div>
+                <div class="item">
+                    <h3>품목 3</h3>
+                    <p>가격</p>
+                </div>
+                <div class="item">
+                    <h3>품목 4</h3>
+                    <p>가격</p>
+                </div>
+            </div>
+        </main>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>

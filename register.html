@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>상품 등록</title>
+        <link rel="stylesheet" href="register.css" />
+    </head>
+    <body>
+        <!-- 탑바 -->
+        <header>
+            <div class="topbar">
+                <div class="logo">플랫폼 로고</div>
+
+                <div class="icons">
+                    <span class="icon">알림</span>
+                    <span class="icon">마이 페이지</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- 상품 등록 폼 -->
+        <main>
+            <div class="form-container">
+                <h2>상품 등록</h2>
+                <form id="product-form">
+                    <!-- 이미지 업로드 -->
+                    <label for="product-image">상품 이미지</label>
+                    <input type="file" id="product-image" name="product-image" accept="image/*" required />
+
+                    <!-- 상품 설명 -->
+                    <label for="product-description">상품 설명</label>
+                    <textarea id="product-description" name="product-description" rows="4" required></textarea>
+
+                    <!-- 판매자 위치 -->
+                    <label for="product-location">판매자 위치</label>
+                    <div id="map"></div>
+
+                    <!-- 등록 버튼 -->
+                    <button type="submit">등록하기</button>
+                </form>
+            </div>
+        </main>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
